@@ -1,0 +1,1 @@
+<img src="{{$blog->getPhotoThumbUrl()}}" style="max-width: 80px;">
