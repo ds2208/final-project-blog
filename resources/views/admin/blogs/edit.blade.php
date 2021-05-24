@@ -290,9 +290,11 @@
             },
             title: {
                 required: true,
+                minlength: 20,
                 maxlength: 255
             },
             description: {
+                minlength: 50,
                 maxlength: 2000
             },
             status: {
@@ -302,8 +304,7 @@
                 required: true
             }, 
             content: {
-                required: true,
-                minlength: 100
+                required: true
             }
         },
         errorElement: 'span',
