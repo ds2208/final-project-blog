@@ -61,7 +61,7 @@
                             <div class="image"><img src="{{$singleBlog->getPhotoUrl()}}" alt="..." class="img-fluid"></div>
                             <div class="title"><strong>{{$singleBlog->title}}</strong>
                                 <div class="d-flex align-items-center">
-                                    <div class="views"><i class="icon-eye"></i> 500</div>
+                                    <div class="views"><i class="icon-eye"></i>{{$singleBlog->views}}</div>
                                     <div class="comments"><i class="icon-comment"></i>{{$singleBlog->comments_count}}</div>
                                 </div>
                             </div>
